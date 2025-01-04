@@ -7,8 +7,6 @@ This is a Sample Skeleton code to build a portfolio website done using Html, Css
 
 ![popup](https://github.com/user-attachments/assets/3642d23b-64d4-44b6-b9c0-751b9e57eb98)
 
-![popup](https://github.com/user-attachments/assets/c6f56e35-d775-4b6b-8aa4-bd7d0143cacf)
-
 ![new_recommendation](https://github.com/user-attachments/assets/f010d4cb-5e31-4faa-a3bb-eaa2cef4bb28)
 
 
