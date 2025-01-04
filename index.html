@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <title>        </title>
+
+    </head>
+
+
+    <body>
+
+        <!-- Navigation Bar -->
+
+        <nav>
+            <div id="home">
+                <header>
+                    <div class="Contact">Name<br>&#x1F4E7;name@gmail.com<br>&#9742; Contact</div>
+                    <div class="link-container">
+                        <a class= "topmenu" href="#about-me">About Me</a>
+                        <a class= "topmenu" href="#skills">Skills</a>
+                        <a class= "topmenu" href="#projects">Projects</a>
+                        <a class= "topmenu" href="#recommendations">Recommendatios</a>
+                       
+                    </div>
+            </div>
+            
+               
+            </header>
+
+        </nav>
+
+        <!-- About Me -->
+         <section id="about-me" >
+            
+            <div class="profile-section">
+                <div class="image-container">
+                    <img src="profile.png" alt="Profile Picture">
+                </div>
+                <div class="description-container">
+                    <p>Hello! My name is ... . I am a passionate developer with a keen interest in web development and design. In my free time, I enjoy reading, coding, and exploring new technologies. Feel free to connect with me!</p>
+                </div>
+            </div>
+
+         </section>
+
+
+        <!-- Skills -->
+
+        <div class="content-wrapper">
+
+        <section id="skills" class="skills-section">
+            <div class="skills-container">
+                <h2>Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill">
+                        <img src="html.png" alt="HTML">
+                        <h3>HTML</h3><p>Experience : 3yrs</p>
+                    </div>
+                    <div class="skill">
+                        <img src="css.png" alt="CSS">
+                        <h3>CSS</h3><p>Experience : 3yrs</p>
+                    </div>
+                    <div class="skill">
+                        <img src="js.png" alt="JavaScript">
+                        <h3>JavaScript</h3><p>Experience : 3yrs</p>
+                    </div>
+                    <div class="skill">
+                        <img src="react.png" alt="Python">
+                        <h3>React.js</h3><p>Experience : 1yr</p>
+                    </div>
+                    <div class="skill">
+                        <img src="sql.png" alt="Java">
+                        <h3>SQL</h3><p>Experience : 3yrs</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+         <!-- Projects -->
+
+        <section id="projects" class="projects-section">
+            <h2>My Projects</h2>
+            <div class="projects-container">
+                <div class="projects-grid">
+                    <div class="project">
+                        <h3>To-Do List Web App</h3>
+                        <p> Developed a simple to-do list application using HTML, CSS, and JavaScript. Users can add, delete, and mark tasks as completed. Integrated local storage to save tasks for future sessions..</p>
+                    </div>
+                    <div class="project">
+                        <h3> Weather App</h3>
+                        <p> Built a weather forecast application using JavaScript and the OpenWeather API. Users can search for current weather conditions in any city..</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+     <!-- Recommendations -->
+      <section id="recommendations" class="all_recommendations">
+         <h2>Recommendations</h2>
+         <div style="clear:both;"></div>
+         <div class="all_recommendations" id="all_recommendations">
+                <div class="recommendation">
+                    <span>&#8220;</span>
+                    ... is a fast learner who quickly understands the fundamentals
+                     and intricacies of web development. With a positive attitude and 
+                     exceptional teamwork skills, ... contributes effectively to any project.
+                    <span>&#8221;</span>
+                </div>
+                <div class="recommendation">
+                    <span>&#8220;</span>
+                    I have been impressed by ...'s ability to grasp complex concepts 
+                    in web development with remarkable speed. She brings enthusiasm
+                     and a collaborative spirit to the team. 
+                    <span>&#8221;</span>
+                </div>
+                <div class="recommendation">
+                    <span>&#8220;</span>
+                    ... consistently demonstrates a strong aptitude for learning 
+                    and applying key concepts in web development. Their proactive
+                     approach, combined with a natural curiosity and excellent team
+                      collaboration, makes them a valuable team member. 
+                    <span>&#8221;</span>
+                </div>
+         </div>
+      </section>
+    </div>
+  
+      <!-- Recommendation Form -->
+      <section id="contact">
+            <div class="flex_center">
+                <fieldset>
+                    <legend class="introduction">Leave a Recommendation</legend>          
+                    <input type="text" placeholder="Name (Optional)"> <br/>
+                    <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+                    <div class="flex_center">
+                    <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+                    </div>
+                </fieldset>
+            </div>
+
+      </section>
+      <div class="iconbutton">
+            <a href="#home">
+            <!--Add the code here for the logo to appear and the icon to be actionable-->
+            <img src="home.png" alt="Home Icon" class="home-icon">
+            </a>
+      </div>
+
+      <div class="popup" id="popup" class="flex_center">
+            <img src="checkmark--outline.svg"/>
+            <h3>Thanks for leaving a recommendation! </h3>
+            <button onclick="showPopup(false)">Ok</button>
+      </div>
+  
+        
+        
+
+    </body>
+</html>
